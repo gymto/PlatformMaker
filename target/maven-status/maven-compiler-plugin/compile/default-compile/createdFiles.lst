@@ -1,0 +1,6 @@
+com\ageofelysian\platformmaker\PlatformMaker.class
+com\ageofelysian\platformmaker\Commands\Loc2.class
+com\ageofelysian\platformmaker\Commands\Fill.class
+com\ageofelysian\platformmaker\Commands\Loc1.class
+com\ageofelysian\platformmaker\Commands\platformcommand.class
+com\ageofelysian\platformmaker\Platform.class

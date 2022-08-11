@@ -1,0 +1,17 @@
+name: PlatformMaker
+version: '${project.version}'
+main: com.ageofelysian.platformmaker.PlatformMaker
+api-version: 1.18
+commands:
+  Fill:
+    description: Fills the designated area
+    usage: /<command>
+  Loc2:
+    description: Picks the second location you are standing on
+    usage: /<command>
+  Loc1:
+    description: Picks the location you are standing on
+    usage: /<command>
+  platform:
+    description: Place 5x5 platform
+    usage: /<command>
