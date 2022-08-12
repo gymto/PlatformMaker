@@ -8,31 +8,19 @@ import org.bukkit.command.CommandSender;
 import org.jetbrains.annotations.NotNull;
 
 public class Fill implements CommandExecutor {
-    private Location loc1;
-    private Location loc2;
+    private final Loc1 loc1;
+    private final Loc2 loc2;
 
-    public Location getLoc1() {
-        return loc1;
+    public Fill(Loc1 loc1, Loc2 loc2) {
+        this.loc1 = loc1;
+        this.loc2 = loc2;
     }
 
-    public Location getLoc2() {
-        return loc2;
-    }
 
-    public Fill(Location Loc1, Location Loc2){
-        this.loc1= Loc1;
-        this.loc2= Loc2;
-
-
-
-    }
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
+        Platform platform= new Platform(loc1.getLoc1(), loc2.getLoc2());
 
-        Platform platform= new Platform(loc1, loc2);
-
-
-
-        return true;
+        return false;
     }
 }

@@ -8,6 +8,9 @@ import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
 public class Loc1 implements CommandExecutor {
+    public Loc1(){
+
+    }
 
     public Location getLoc1() {
         return loc1;
